@@ -6,7 +6,7 @@ Here you want to write a short overview of the goals of your project and how it 
 
 ### Requirements
 
-현재 나는 두 타입의 호텔을 운영하고 있다. 매년 호텔이 성장하고 있다는 것을 호텔의 수익 데이터를 대시보드로 시각화하고, 데이터 기반으로 주주들에게 설명하여 현재 호텔의 운영 상황에 대해서 이해시켜야 한다. 
+현재 나는 두 타입의 호텔을 운영하고 있다. 호텔의 수익 데이터를 대시보드로 시각화하고, 데이터 기반으로 분석하여, 주주들에게 호텔이 매년 성장을 하고 있는지에 대해 설명하여야 한다. 
 
 ### Data Visualization
 

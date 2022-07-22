@@ -147,4 +147,8 @@ Replace the example step-by-step instructions with your own.
 
 ## Lessons Learned
 
-It's good to reflect on what you learned throughout the process of building this project. Here you might discuss what you would have done differently if you had more time/money/data. Did you end up choosing the right tools or would you try something else next time?
+이번 프로젝트를 통해 MS SQL SSMS에서 SQL query 작성 연습도 해보고, Power BI로 데이터를 시각화해서 대시보드를 직접 만들어보는 유익한 시간이었습니다. <br/>
+
+가상으로 호텔을 운영한다는 전제로 데이터를 분석해보니 어떤식으로 대시보드를 구성해서 호텔의 지분을 가지고 있는 주주들에게 보여줘야 될지, 그리고 현재 호텔을 운영함에 있어 어떠한 문제가 있고, 개선을 해야 되는지에 대해서 데이터를 통해 파악을 할 수 있다는 점이 흥미로웠던 것 같습니다. <br/>
+
+

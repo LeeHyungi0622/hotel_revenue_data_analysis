@@ -29,6 +29,9 @@
 ## **Data Analysis Project Pipeline**
 
 #### **STEP1)** Database 구축하기
+(1) **SQL Server** : Microsoft SQL Server Express <br/>
+(2) **SSMS** : SQL Server Management Studio v18.12.1 <br/>
+(3) **Dataset** : dataset/hotel_revenue_historical_full.xlsx
 
 #### **STEP2)** SQL query 작성하기
 

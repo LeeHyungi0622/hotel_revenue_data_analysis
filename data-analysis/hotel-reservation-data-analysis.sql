@@ -46,8 +46,11 @@ GROUP BY arrival_date_year, hotel;
 
 -- 각 투숙객별 예약 방식에 따른 할인율 정보 테이블과 신청한 식사 정보 테이블을 JOIN하여
 -- 전체적으로 데이터를 조회할 수 있도록 하였다.
+-- Power BI에 데이터를 Import 할때, 아래의 query 사용
+
 SELECT * FROM hotels
 LEFT JOIN dbo.market_segment$
 ON hotels.market_segment = market_segment$.market_segment
 LEFT JOIN dbo.meal_cost$
 ON meal_cost$.meal = hotels.meal
+

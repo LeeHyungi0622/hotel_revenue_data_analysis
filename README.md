@@ -1,10 +1,14 @@
 # **호텔의 수익 데이터 분석 및 시각화** 
 
-![메인 이미지](assets/220722_hotel_img.jpg)
 
 ## **Overview**
 
 본 프로젝트는 ANSI-SQL query를 사용하여 주어진 호텔의 수익 dataset을 분석하고, Power BI를 사용하여 시각화합니다. 시각화된 결과는 호텔의 지분을 가지고 있는 주주들에게 현재 호텔의 운영 상태에 대해 설명을 할 때 중요한 자료가 되며, 더 나아가 앞으로 호텔을 운영함에 있어 의사결정을 하는데 중요한 지표로써 활용됩니다. 
+
+## **Architecture**
+
+![메인 이미지](assets/220722_sql_dataset_analysis_project.png)
+
 
 ## **Requirements**
 

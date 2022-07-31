@@ -108,6 +108,8 @@ Q4~Q7 항목도 추가하여, 아래 대시보드의 구성을 좀 더 다채롭
 
 #### **10.** <ins>보증금과 예약 취소와의 관계는 어떻게 되는가?</ins>
 
+<br/>
+
 ## **Data Analysis Project Pipeline**
 
 #### **STEP1)** Database 구축하기
@@ -128,22 +130,27 @@ Power BI Desktop에서 MS SQL Server의 Database로부터 데이터를 import하
 
 #### **STEP5)** 결과 요약하기
 
+<br/>
+
 ## Prerequisites
 
-Directions or anything needed before running the project.
+- SQL Server 및 SQL Server Management Studio 설치 
 
-- Prerequisite 1
-- Prerequisite 2
-- Prerequisite 3
+    `(1) SQL Server Engine` : https://www.microsoft.com/en-us/sql-server/sql-server-downloads
+
+    `(2) SQL Server Management Studio` : https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16
+- Power BI Desktop 설치
+- 코드를 실행할 IDE (VSCODE, Sublime Text 등) 설치
+
+<br/>
 
 ## How to Run This Project
 
-Replace the example step-by-step instructions with your own.
-
-1. Install x packages
-2. Run command: `python x`
-3. Make sure it's running properly by checking z
-4. To clean up at the end, run script: `python cleanup.py`
+1. SSMS에서 설치한 SQL Server 이름을 입력하여 연결 
+2. Database - [New Database...] 선택 - 데이터베이스 추가
+3. 추가된 데이터베이스 우측 클릭 - [Import Data...] - Microsoft Excel(Data source) 선택 
+4. `dataset/hotel_revenue_historical_full.xlsx` / Microsoft Excel 2016 버전 선택
+5. Destination으로 `SQL Server Native Client 11.0` 및 Database로 추가한 Database 선택
 
 ## Lessons Learned
 

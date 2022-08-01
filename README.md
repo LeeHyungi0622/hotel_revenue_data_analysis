@@ -20,8 +20,6 @@ ANSI-SQL query를 활용하여 데이터를 가공하고, Requirements 카테고
 
 Q4~Q7 항목도 추가하여, 아래 대시보드의 구성을 좀 더 다채롭게 구성해보는 것도 좋을 것 같다. 우선 여지까지 추가된 내용에 대해 시각화한 대시보드는 임시로 추가해두고, 차후에 대시보드를 수정하게 되면, 정기적으로 수정해서 업데이트하도록 하자.
 
-<img src="assets/220722_power_bi_result.png" alt="" />
-
 <table>
     <tr>
         <th style="text-align:center">NO</th>
@@ -31,11 +29,11 @@ Q4~Q7 항목도 추가하여, 아래 대시보드의 구성을 좀 더 다채롭
     <tr>
         <td>1</td>
         <td>
-            <img src="assets/220705_ufo_sighting_count_quicksight.png" alt="" />
+            <img src="assets/220801_cancel_percentage.png" alt="" />
         </td>
         <td>
-            <b></b><br/>
-            <small></small>     
+            <b>[호텔의 종류와 예약 취소와의 상관 관계]</b><br/>
+            <small>City hotel의 경우에는 전체 예약 건수의 29.13%가 취소 건수로 집계되고 있으며, Resort hotel의 경우에는 전체 예약 건수의 22.82%가 예약 취소 건수로 집계되고 있다.</small>     
         </td>
     </tr>
     <tr>
@@ -44,9 +42,9 @@ Q4~Q7 항목도 추가하여, 아래 대시보드의 구성을 좀 더 다채롭
             <img src="assets/220705_ufo_sighting_worldwide_region.png" alt="" />
         </td>
         <td>
-        <b></b>
+            <b>[주중과 주말 숙박 일수]</b>
             <br/>
-            <small></small>
+            <small>총 예약된 숙박 일수를 분석해보면, 전체 숙박의 72.35%가 주중 숙박으로 집계가 되고 있다. (주말 숙박은 27.65%)</small>
         </td>
     </tr>
     <tr>
@@ -55,9 +53,9 @@ Q4~Q7 항목도 추가하여, 아래 대시보드의 구성을 좀 더 다채롭
             <img src="assets/220705_ufo_sighting_worldwide_season.png" alt="" />
         </td>
         <td>
-            <b></b>
+            <b>[호텔 숙박시, 식사 예약 비율]</b>
             <br/>
-            <small></small>
+            <small>No show와 Canceled를 제외한 0.62%(Undefined)을 제외한 예약 고객이 전부 식사 예약을 하였으며, 그 중에서 BB가 79.22%로 가장 많은 식사 예약 타입이었으며, 그 다음으로 HB가 10.91%로 뒤를 이었다.</small>
         </td>
     </tr>
     <tr>
@@ -66,12 +64,51 @@ Q4~Q7 항목도 추가하여, 아래 대시보드의 구성을 좀 더 다채롭
             <img src="assets/220705_ufo_sighting_description.png" alt="" />
         </td>
         <td>
-            <b></b>
+            <b>[가장 많이 방문한 방문객의 국가]</b>
             <br/>
-            <small></small>
+            <small>가장 많이 방문한 방문객의 국가는 포루투갈(PRT)로, 29.52%를 차지했으며, 그 다음으로 영국(GBR)이 12.91%로 많았고, 세 번째로 많이 방문한 방문객의 국가는 프랑스(FRA)로 10.9%를 차지했다.</small>
+        </td>
+    </tr>
+        <tr>
+        <td>5</td>
+        <td>
+            <img src="assets/220705_ufo_sighting_description.png" alt="" />
+        </td>
+        <td>
+            <b>[가장 많이 예약하는 세그먼트]</b>
+            <br/>
+            <small>예약한 고객들 중 가장 많은 예약 수단은 Online TA로, 50.88%를 차지하고 있으며, 그 다음으로 Offline TA/TO가 19.59%로 두 번째로 많은 비중을 차지했습니다. 세 번째로는 Direct로 직접 예약을 하는 케이스로 16.09%를 차지하고 있습니다.</small>
+        </td>
+    </tr>
+    </tr>
+        <tr>
+        <td>6</td>
+        <td>
+            <img src="assets/220705_ufo_sighting_description.png" alt="" />
+        </td>
+        <td>
+            <b>[가장 많이 예약을 취소하는 세그먼트]</b>
+            <br/>
+            <small>가장 많이 예약을 취소하는 예약 수단은 Online TA로 74.73%를 차지하고 있으며, 그 다음으로 9.07%인 Offline TA/TO, Direct가 7.09%로 뒤를 이었습니다.</small>
+        </td>
+    </tr>
+    </tr>
+        <tr>
+        <td>7</td>
+        <td>
+            <img src="assets/220705_ufo_sighting_description.png" alt="" />
+        </td>
+        <td>
+            <b>[보증금과 예약 취소와의 관계]</b>
+            <br/>
+            <small>예약 취소 건수 중 95.16%가 보증금이 없는 경우이며, 4.74%가 환불이 불가능함에도 취소를 하였고, 환불이 가능한 상태에서 예약 취소를 한 25건(0.1%)이 가장 작은 비율을 차지했다.</small>
         </td>
     </tr>
 </table>
+
+<br/>
+
+<img src="assets/220722_power_bi_result.png" alt="" />
 
 <br/>
 
@@ -96,15 +133,11 @@ Q4~Q7 항목도 추가하여, 아래 대시보드의 구성을 좀 더 다채롭
 
 #### **Q4.** <ins>호텔 종류와 예약 취소와의 상관 관계는 어떻게 되는가?</ins>
 
-#### **Q5.** <ins>호텔에 가장 많이 숙박하는 일 수는?</ins>
-
 #### **Q6.** <ins>호텔 숙박시, 식사 예약 비율은 어떻게 되는가?</ins>
 
-#### **Q7.** <ins>호텔에 가장 많이 방문하는 고객의 국가와 가장 많이 취소하는 고객의 국가는 어떻게 되는가?</ins>
+#### **Q7.** <ins>호텔에 가장 많이 방문하는 고객의 국가는 어떻게 되는가?</ins>
 
 #### **Q8.** <ins>가장 많이 예약을 하는 세그먼트와 가장 많이 예약을 취소하는 세그먼트는 어떻게 되는가?</ins>
-
-#### **Q9.** <ins>예약한 객실과 배정된 객실은 동일한가?</ins>
 
 #### **10.** <ins>보증금과 예약 취소와의 관계는 어떻게 되는가?</ins>
 
@@ -151,6 +184,23 @@ Power BI Desktop에서 MS SQL Server의 Database로부터 데이터를 import하
 3. 추가된 데이터베이스 우측 클릭 - [Import Data...] - Microsoft Excel(Data source) 선택 
 4. `dataset/hotel_revenue_historical_full.xlsx` / Microsoft Excel 2016 버전 선택
 5. Destination으로 `SQL Server Native Client 11.0` 및 Database로 추가한 Database 선택
+6. Power BI Desktop 앱을 열고 데이터 소스로 `SQL Server`를 클릭해서 데이터베이스를 import한다. (`고급 옵션에서 아래의 SQL문을 입력한다`)
+
+    ```sql
+    WITH hotels AS (
+    SELECT * FROM dbo.['2018$']
+    UNION
+    SELECT * FROM dbo.['2019$']
+    UNION
+    SELECT * FROM dbo.['2020$'])
+
+    SELECT * FROM hotels
+    LEFT JOIN dbo.market_segment$
+    ON hotels.market_segment = market_segment$.market_segment
+    LEFT JOIN dbo.meal_cost$
+    ON meal_cost$.meal = hotels.meal
+    ```
+7. Power BI Desktop 앱에서 입력한 데이터를 활용해서 그래프로 시각화를 한다. (`power_bi/hotel_reservation_dataset_analysis.pbix`)
 
 ## Lessons Learned
 

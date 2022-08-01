@@ -29,7 +29,41 @@ Q4~Q7 항목도 추가하여, 아래 대시보드의 구성을 좀 더 다채롭
     <tr>
         <td>1</td>
         <td>
+            <img src="assets/220801_checkout_country.png" alt="" />
+        </td>
+        <td>
+            <b>[가장 많이 방문한 방문객의 국가]</b>
+            <br/>
+            <small>가장 많이 방문한 방문객의 국가는 포루투갈(PRT)로, 29.52%를 차지했으며, 그 다음으로 영국(GBR)이 12.91%로 많았고, 세 번째로 많이 방문한 방문객의 국가는 프랑스(FRA)로 10.9%를 차지했다.</small>
+        </td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>
+            <img src="assets/220801_checkout_segment.png" alt="" />
+        </td>
+        <td>
+            <b>[가장 많이 예약하는 세그먼트]</b>
+            <br/>
+            <small>예약한 고객들 중 가장 많은 예약 수단은 Online TA로, 50.88%를 차지하고 있으며, 그 다음으로 Offline TA/TO가 19.59%로 두 번째로 많은 비중을 차지했습니다. 세 번째로는 Direct로 직접 예약을 하는 케이스로 16.09%를 차지하고 있습니다.</small>
+        </td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>
+            <img src="assets/220801_meal_count.png" alt="" />
+        </td>
+        <td>
+            <b>[호텔 숙박시, 식사 예약 비율]</b>
+            <br/>
+            <small>No show와 Canceled를 제외한 0.62%(Undefined)을 제외한 예약 고객이 전부 식사 예약을 하였으며, 그 중에서 BB가 79.22%로 가장 많은 식사 예약 타입이었으며, 그 다음으로 HB가 10.91%로 뒤를 이었다.</small>
+        </td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>
             <img src="assets/220801_cancel_percentage.png" alt="" />
+            <img src="assets/220801_total_hotel_cancel_info.png" alt="" />
         </td>
         <td>
             <b>[호텔의 종류와 예약 취소와의 상관 관계]</b><br/>
@@ -39,7 +73,7 @@ Q4~Q7 항목도 추가하여, 아래 대시보드의 구성을 좀 더 다채롭
     <tr>
         <td>2</td>
         <td>
-            <img src="assets/220705_ufo_sighting_worldwide_region.png" alt="" />
+            <img src="assets/220801_hotel_stays_percentage.png" alt="" />
         </td>
         <td>
             <b>[주중과 주말 숙박 일수]</b>
@@ -48,43 +82,9 @@ Q4~Q7 항목도 추가하여, 아래 대시보드의 구성을 좀 더 다채롭
         </td>
     </tr>
     <tr>
-        <td>3</td>
-        <td>
-            <img src="assets/220705_ufo_sighting_worldwide_season.png" alt="" />
-        </td>
-        <td>
-            <b>[호텔 숙박시, 식사 예약 비율]</b>
-            <br/>
-            <small>No show와 Canceled를 제외한 0.62%(Undefined)을 제외한 예약 고객이 전부 식사 예약을 하였으며, 그 중에서 BB가 79.22%로 가장 많은 식사 예약 타입이었으며, 그 다음으로 HB가 10.91%로 뒤를 이었다.</small>
-        </td>
-    </tr>
-    <tr>
-        <td>4</td>
-        <td>
-            <img src="assets/220705_ufo_sighting_description.png" alt="" />
-        </td>
-        <td>
-            <b>[가장 많이 방문한 방문객의 국가]</b>
-            <br/>
-            <small>가장 많이 방문한 방문객의 국가는 포루투갈(PRT)로, 29.52%를 차지했으며, 그 다음으로 영국(GBR)이 12.91%로 많았고, 세 번째로 많이 방문한 방문객의 국가는 프랑스(FRA)로 10.9%를 차지했다.</small>
-        </td>
-    </tr>
-        <tr>
-        <td>5</td>
-        <td>
-            <img src="assets/220705_ufo_sighting_description.png" alt="" />
-        </td>
-        <td>
-            <b>[가장 많이 예약하는 세그먼트]</b>
-            <br/>
-            <small>예약한 고객들 중 가장 많은 예약 수단은 Online TA로, 50.88%를 차지하고 있으며, 그 다음으로 Offline TA/TO가 19.59%로 두 번째로 많은 비중을 차지했습니다. 세 번째로는 Direct로 직접 예약을 하는 케이스로 16.09%를 차지하고 있습니다.</small>
-        </td>
-    </tr>
-    </tr>
-        <tr>
         <td>6</td>
         <td>
-            <img src="assets/220705_ufo_sighting_description.png" alt="" />
+            <img src="assets/220801_cancel_market_segment.png" alt="" />
         </td>
         <td>
             <b>[가장 많이 예약을 취소하는 세그먼트]</b>
@@ -96,7 +96,7 @@ Q4~Q7 항목도 추가하여, 아래 대시보드의 구성을 좀 더 다채롭
         <tr>
         <td>7</td>
         <td>
-            <img src="assets/220705_ufo_sighting_description.png" alt="" />
+            <img src="assets/220801_cancel_deposit_type.png" alt="" />
         </td>
         <td>
             <b>[보증금과 예약 취소와의 관계]</b>
